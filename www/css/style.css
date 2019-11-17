@@ -1,0 +1,87 @@
+body {
+    background-image: url("../images/darky.jpeg");
+    height: 100%;
+
+}
+
+.nav-text {
+    font-size: 35px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    height: 60px;
+    text-align: center;
+    background: #2c3e50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    text-shadow: gray;
+}
+
+.container-2 {
+    height: 570px;
+    background-color: #f7fcfc;
+    max-width: 500px;
+    margin: auto;
+}
+.order {
+    align-items: center;
+}
+li {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 576px) { 
+ h4 {
+     font-size: 20px;
+     font-weight: bold;
+     text-align: center;
+ }
+}
+.introdoc-btn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 0 auto;
+    text-align: center;
+    width: 150px;
+    position: absolute;
+
+}
+h3 {
+    color: white;
+    font-size: 35px;
+}
+
+article {
+    color: white;
+    font-size: 25px;
+    font-family: 'Yeon Sung', cursive;
+    min-width: 500px;
+    text-align: center;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    margin-right: -50px;
+    width: 700px;
+    height: 500px;
+}
+.card-header {
+    background-color: rgb(16, 16, 158);
+}
