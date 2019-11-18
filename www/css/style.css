@@ -5,6 +5,7 @@ body {
 }
 
 .nav-text {
+    padding: 10px;
     font-size: 35px;
     font-family: 'ZCOOL KuaiLe', cursive;
     min-height: 60px;
@@ -16,12 +17,6 @@ body {
     text-shadow: gray;
 }
 
-.container-2 {
-    height: 570px;
-    background-color: #f7fcfc;
-    max-width: 500px;
-    margin: auto;
-}
 .order {
     align-items: center;
 }
@@ -48,11 +43,6 @@ button {
         width: 80% !important;
     }
 }
-.introdoc-btn {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
 
 .btn {
     text-align: center;
@@ -67,18 +57,5 @@ article {
     color: white;
     font-size: 25px;
     font-family: 'Yeon Sung', cursive;
-    min-width: 500px;
     text-align: center;
-}
-
-.card-old {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    right: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-    margin-right: -50px;
-    width: 700px;
-    height: 500px;
 }
